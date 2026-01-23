@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 4.2.1 FATAL_ERROR)
 set(PROJECT_NAME BattleCity)
 project(${PROJECT_NAME})
 
+set(CMAKE_CXX_STANDARD 17)
+
 add_executable(BattleCity src/main.cpp)
 
 set(GLFW_BUILD_DOCS     OFF CACHE BOOL "" FORCE)
